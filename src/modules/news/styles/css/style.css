@@ -1,0 +1,477 @@
+html {
+  color: #000;
+  background: #fff;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+html {
+  font-family: sans-serif;
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 500;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+q::after,
+q::before {
+  content: '';
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+ins {
+  text-decoration: none;
+}
+
+body,
+input,
+select {
+  font: 0.4rem/1.5 "Microsoft Yahei", SimHei, SimSun;
+}
+
+html {
+  background: #f2f2f2;
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+a {
+  color: #19a4bf;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.wrapper {
+  font-size: 0.42667rem;
+  overflow: hidden;
+}
+
+.top-bar a,
+.wb-item-hd {
+  padding: 0.26667rem;
+}
+
+.top-bar {
+  background: #da4336;
+  text-align: right;
+}
+
+.top-bar a {
+  display: inline-block;
+  vertical-align: top;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+.top-bar-btn-refresh {
+  background: url(../images/icon-refresh.png) no-repeat center;
+  background-size: 60% 60%;
+}
+
+.loading {
+  padding: 0.53333rem;
+  text-align: center;
+}
+
+.loading i {
+  display: inline-block;
+  background: url(../images/loading.gif) no-repeat left center;
+  background-size: auto 100%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: #929292;
+  font-size: 0.34667rem;
+  text-indent: 2em;
+  vertical-align: sub;
+}
+
+.loading span {
+  padding-left: 0.5em;
+  color: #888;
+}
+
+.loading.loading-more i {
+  background-image: url(../images/loading-more.gif);
+}
+
+.wb-item {
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+  max-height: 2.66667rem;
+}
+
+.wb-item:first-child {
+  margin-top: 0;
+}
+
+.wb-item:last-child {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.wb-item-hd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.wb-item-pic {
+  margin-right: 0.2rem;
+}
+
+.wb-item-pic img {
+  display: block;
+  width: 2.66667rem;
+  height: 2.13333rem;
+}
+
+.wb-item-news-info {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.wb-item-tit {
+  font-size: 0.37333rem;
+  height: 1.70667rem;
+  overflow: hidden;
+}
+
+.wb-item-comment,
+.wb-item-time {
+  color: #929292;
+  font-size: 0.32rem;
+}
+
+.wb-item-time {
+  float: left;
+}
+
+.wb-item-comment {
+  float: right;
+}
+
+.top-bar-left {
+  text-align: left;
+}
+
+.top-bar-btn-back {
+  background: url(../images/icon-return.png) no-repeat center;
+  background-size: 60% 60%;
+}
+
+.detail .head {
+  border-bottom: 1px solid #404040;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 0.61333rem;
+  color: #404040;
+  text-align: center;
+  padding: 0.4rem 0.26667rem;
+  max-height: 1.6rem;
+  overflow: hidden;
+}
+
+.detail .info {
+  text-align: right;
+  color: #929292;
+  padding-right: 0.26667rem;
+}
+
+.detail .content {
+  word-break: break-all;
+  color: #404040;
+  padding: 0 0.26667rem 0.8rem;
+}
+
+.detail .content p {
+  text-align: justify;
+  text-indent: 0.66667rem;
+}
+
+.detail .photo {
+  text-align: center;
+  padding: 0.26667rem 0;
+}
+
+.detail .photo img {
+  width: 5.33333rem;
+  height: 4rem;
+}
+
+.detail .comment-btn-box {
+  position: fixed;
+  bottom: 0;
+  height: 1.06667rem;
+  width: 100%;
+  background: #fff;
+}
+
+.detail .add-comment,
+.detail .comment-num {
+  position: absolute;
+  top: 0.21333rem;
+}
+
+.detail .comment-num {
+  left: 0.4rem;
+}
+
+.detail .add-comment {
+  right: 0.4rem;
+}
+
+.comment-list {
+  padding-bottom: 1.6rem;
+}
+
+.comment-item {
+  background: #fff;
+  padding: 0.26667rem;
+  border-top: 1px solid #d3d3d3;
+}
+
+.comment-item:last-child {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.comment-item p {
+  color: #929292;
+  font-size: 0.42667rem;
+}
+
+.comment-item .show-all {
+  float: right;
+  padding: 0 0.21333rem;
+}
+
+.comment-hd {
+  color: #929292;
+  font-size: 0.37333rem;
+  margin-bottom: 0.13333rem;
+}
+
+.comment-user {
+  float: left;
+  color: #19a4bf;
+}
+
+.comment-time {
+  float: right;
+}
+
+.comment-input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 0.42667rem;
+  width: 99%;
+  border: 2px solid #000;
+}
+
+.comment-input-box {
+  position: relative;
+  background: #fff;
+}
+
+.expandingArea {
+  position: relative;
+  margin-right: 1.6rem;
+  min-height: 1.06667rem;
+  max-height: 2.66667rem;
+  border: 1px solid #545454;
+}
+
+.expandingArea pre {
+  display: block;
+  visibility: hidden;
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.expandingArea .num {
+  position: absolute;
+  right: 0.13333rem;
+  font-size: 0.26667rem;
+  color: #929292;
+}
+
+.comment-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0.26667rem 0.66667rem 0.26667rem 0.13333rem;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+  resize: none;
+}
+
+.btn-send-box {
+  width: 1.6rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background: #19a4bf;
+}
+
+.btn-send-box .btn-send {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0.93333rem;
+  height: 0.53333rem;
+}
